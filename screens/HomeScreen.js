@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
+import { Layout, Text } from "@ui-kitten/components";
 
 export default class HomeScreen extends Component {
   render() {
     return (
-      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <Layout style={styles.container}>
         <Text>Home Screen</Text>
-      </View>
+      </Layout>
     );
   }
 }
@@ -14,7 +15,6 @@ export default class HomeScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },
