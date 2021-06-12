@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Walkiary",
-    "slug": "Walkiary",
+    "name": "React Native AppBase",
+    "slug": "React Native AppBase",
     "platforms": [
       "ios",
       "android",
